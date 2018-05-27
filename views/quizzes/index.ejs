@@ -1,0 +1,9 @@
+<h1>LISTA DE QUIZZES</h1>
+  <ul>
+  <%let quiz;%>
+  <%let i;%>
+  <%for(i=0; i<quizzes.length ; i++){%>
+  <% quiz=quizzes[i]; %>
+  <li type="circle"> <%=quiz.question%> : <%=quiz.answer%> </li>
+  <%}%>
+  </ul>

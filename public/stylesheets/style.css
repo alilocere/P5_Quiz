@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#page{
+	display: felx;
+	margin: 2px auto;
+	padding: 1;
+}
+
+.main{
+	fex: 1 100%;
+	border: 1px solid #E22444;
+	background: : #C9C6C5;
+	padding: 2px;
+	margin: 1px;
+}
+
+#mainHeader, #mainNav, #mainFooter {
+	text-align: center;
+}
+#mainHeader h1 {
+	margin: 8px;
+}
+
+#mainnav a { margin: 0px 5px; }
+
+#mainSection{
+	padding: 20px;
+	text-align: left;
+}
