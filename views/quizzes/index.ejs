@@ -4,6 +4,6 @@
   <%let i;%>
   <%for(i=0; i<quizzes.length ; i++){%>
   <% quiz=quizzes[i]; %>
-  <li type="circle"> <%=quiz.question%> : <%=quiz.answer%> </li>
+  <li type="circle"> Pregunta número <%=(i+1)%> <%=quiz.question%> : <%=quiz.answer%> </li>
   <%}%>
   </ul>
