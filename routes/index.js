@@ -18,7 +18,7 @@ router.get('/credits', function (req, res, next) {
     res.render('credits');
 });
 
-router.get('/quizzes/index', function (req, res, next) {
+router.get('/quizzes', function (req, res, next) {
     models.quiz.findAll()
         .then(quizzes => {
             res.render('quizzes/index', { quizzes });
